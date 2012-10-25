@@ -1,7 +1,7 @@
 node-bossgeo
 ============
 
-A node.js wrapper for the Yahoo! BOSS Geo API.
+A node.js wrapper for the [Yahoo! BOSS Geo API](http://developer.yahoo.com/boss/geo/).
 
 ## Installation
 
@@ -14,12 +14,12 @@ First, create a client using your consumer key and consumer secret:
 ```javascript
 var BossGeoClient = require('bossgeo').BossGeoClient;
 var bossgeo = new BossGeoClient(
-    '[consumerKey]',
-    '[consumerSecret]'
+    'consumerKey',
+    'consumerSecret'
 );
 ```
 
-Then, you may query placefinder and placespotter as follows:
+Then, you may query the [PlaceFinder](http://developer.yahoo.com/boss/geo/docs/requests-pf.html) and [PlaceSpotter](http://developer.yahoo.com/boss/geo/docs/key-concepts.html) services as follows:
 
 ```javascript
 bossgeo.placefinder({
