@@ -1,0 +1,17 @@
+{
+	"name" : "bossgeo",
+	"version" : "0.1",
+	"description" : "A node.js wrapper for the Yahoo! BOSS Geo API.",
+	"author" : "Addy Inc. <dev@addy.co>",
+	"main" : "./lib/bossgeo",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/addyinc/node-bossgeo.git"
+	},
+	"dependencies": {
+        "bases": "0.1.0",
+		"crypto": "0.0.3",
+        "restler": "2.0.1",
+        "underscore": "1.4.2"
+	}
+}
