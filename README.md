@@ -67,13 +67,6 @@ Placespotter has only one parameter type; docs can be found at:
 
 This wrapper provides its own OAuth 1.0a implementation, which is complete sans access and refresh token fetching.
 
-### Dependencies
-
- * bases
- * crypto
- * restler
- * underscore
-
 ## License
 
 MIT
