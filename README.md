@@ -22,7 +22,7 @@ var bossgeo = new BossGeoClient(
 Then, you may query placefinder and placespotter as follows:
 
 ```javascript
-client.placefinder({
+bossgeo.placefinder({
     q: '701 first avenue sunnnyvale'
 }, function(err, res) {
     if (err) {
@@ -33,7 +33,7 @@ client.placefinder({
     console.log(JSON.stringify(res, null, 4));
 });
 
-client.placespotter({
+bossgeo.placespotter({
     documentType: 'text/plain',
     documentContent: 'I live in San Francisco.'
 }, function(err, res) {
