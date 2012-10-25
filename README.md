@@ -15,7 +15,7 @@ First, create a client using your consumer key and consumer secret:
 var BossGeoClient = require('bossgeo').BossGeoClient;
 var bossgeo = new BossGeoClient(
     '[consumerKey]',
-    '[cunsumerSecret]'
+    '[consumerSecret]'
 );
 ```
 
