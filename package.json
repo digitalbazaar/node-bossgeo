@@ -1,6 +1,6 @@
 {
 	"name" : "bossgeo",
-	"version" : "0.0.0",
+	"version" : "0.0.1",
 	"description" : "A node.js wrapper for the Yahoo! BOSS Geo API.",
 	"author" : "Addy Inc. <dev@addy.co>",
 	"main" : "./lib/bossgeo",
