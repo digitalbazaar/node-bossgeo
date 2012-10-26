@@ -10,7 +10,6 @@
 	},
 	"dependencies": {
         "bases": "0.1.0",
-		"crypto": "0.0.3",
         "restler": "2.0.1",
         "underscore": "1.4.2"
 	}
